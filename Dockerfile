@@ -9,3 +9,4 @@ RUN sed -i.bak -e "s%http://[^ ]+%http://ftp.jaist.ac.jp/pub/Linux/ubuntu/%g" /e
   && apt clean \
   && rm -rf /var/cache/* \
   && rm -rf /var/lib/apt/lists/*
+  
